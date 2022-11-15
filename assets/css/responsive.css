@@ -1,0 +1,997 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .side_bar_menu {
+        width: 300px;
+    }
+
+    .side_bar_logo a b {
+        font-size: 40px;
+    }
+
+    .slide_bar_menu ul li a {
+        font-size: 28px;
+    }
+
+    .dashboard_body {
+        margin-left: 260px;
+    }
+
+    .appid h1 {
+        font-size: 28px;
+    }
+
+    .appid img {
+        width: 40%;
+    }
+
+    /* billing-app page */
+    .head_titel.head_p h1 {
+        font-size: 60px;
+    }
+
+    .head_p p {
+        font-size: 26px;
+        padding: 0 30px;
+    }
+
+    .billing_section {
+        padding: 20px;
+    }
+
+    .billing_section h1 {
+        font-size: 30px;
+    }
+
+    .billing_section p {
+        font-size: 18px;
+    }
+
+    .billing_section ul li {
+        font-size: 18px;
+    }
+
+    /* creat-app page  */
+    .sing_input input,
+    .sing_input textarea {
+        font-size: 25px;
+    }
+
+    .sing_input button {
+        font-size: 26px;
+    }
+
+    .profile_pic h2 {
+        font-size: 20px;
+    }
+
+    .profile_pic h1 {
+        font-size: 40px;
+    }
+
+    .drap-content img {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .profile_form .sing_input textarea {
+        height: 200px;
+    }
+
+    /* showco page  */
+    .app_img {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .app_text h3 {
+        font-size: 32px;
+    }
+
+    .app_text h1 {
+        font-size: 50px;
+    }
+
+    .app_text p {
+        font-size: 24px;
+    }
+
+    .app_text a {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+
+    .process_bar_area {
+        padding: 80px 110px;
+        padding-left: 70px;
+        padding-bottom: 0px;
+    }
+
+    .process_bar .pros_tit {
+        font-size: 30px;
+    }
+
+    .process_bar .main_bar {
+        margin-left: 40px;
+    }
+
+    .pro-qty .qtybtn {
+        width: 50px;
+        font-size: 40px;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    .pro-qty input {
+        height: 50px;
+        font-size: 40px;
+        width: 70px;
+        margin: 0 8px;
+        top: 4px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main_logo a {
+        font-size: 40px;
+    }
+
+    .header_menu ul li a {
+        font-size: 26px;
+    }
+
+    .site_text p {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    .sing_input input {
+        font-size: 25px;
+    }
+
+    .sing_input button {
+        font-size: 25px;
+    }
+
+    /* dashboard  */
+    .side_bar_menu {
+        width: 250px;
+    }
+
+    .side_bar_logo a b {
+        font-size: 30px;
+    }
+
+    .dashboard_body {
+        margin-left: 190px;
+        padding-left: 20px;
+    }
+
+    .appid h1 {
+        font-size: 22px;
+    }
+
+    .appid img {
+        width: 40%;
+    }
+
+    .slide_bar_menu {
+        padding: 0 25px;
+    }
+
+    .slide_bar_menu ul li a {
+        font-size: 20px;
+    }
+
+    .head_body {
+        padding-right: 10px;
+    }
+
+    .head_titel h1 {
+        font-size: 40px;
+    }
+
+    .head_titel a {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+
+    .head_left a {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+
+    .head_right a {
+        font-size: 24px;
+    }
+
+    .appid {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .head_titel {
+        margin-bottom: 50px;
+    }
+
+    /* billing*/
+    .head_titel.head_p h1 {
+        font-size: 60px;
+    }
+
+    .head_p p {
+        font-size: 26px;
+        padding: 0 30px;
+    }
+
+    .billing_section {
+        padding: 20px;
+    }
+
+    .billing_section h1 {
+        font-size: 30px;
+    }
+
+    .billing_section p {
+        font-size: 18px;
+    }
+
+    .billing_section ul li {
+        font-size: 18px;
+    }
+
+    /* creat-app page  */
+    .sing_input input,
+    .sing_input textarea {
+        font-size: 22px;
+    }
+
+    .sing_input button {
+        font-size: 26px;
+    }
+
+    .profile_pic h2 {
+        font-size: 20px;
+    }
+
+    .profile_pic h1 {
+        font-size: 40px;
+    }
+
+    .drap-content img {
+        margin-top: 30px;
+        width: 75%;
+    }
+
+    /* showco page  */
+    .app_img {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .app_text h3 {
+        font-size: 32px;
+    }
+
+    .app_text h1 {
+        font-size: 50px;
+    }
+
+    .app_text p {
+        font-size: 24px;
+    }
+
+    .app_text a {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+
+    .process_bar_area {
+        padding: 80px 110px;
+        padding-left: 70px;
+        padding-bottom: 0px;
+    }
+
+    .process_bar .pros_tit {
+        font-size: 30px;
+    }
+
+    .process_bar .main_bar {
+        margin-left: 40px;
+    }
+
+    .pro-qty .qtybtn {
+        width: 50px;
+        font-size: 40px;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    .pro-qty input {
+        height: 50px;
+        font-size: 40px;
+        width: 70px;
+        margin: 0 8px;
+        top: 4px;
+    }
+
+    .process_bar_area {
+        padding: 30px 50px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+    }
+
+    .p_num {
+        top: -45px;
+        right: -10px;
+        font-size: 30px;
+    }
+
+    .p_num.right {
+        top: -100px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main_logo a {
+        font-size: 30px;
+    }
+
+    .header_menu ul li a {
+        font-size: 20px;
+    }
+
+    .site_text p {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    .sing_input input {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .sing_input button {
+        font-size: 25px;
+    }
+
+    /* log-in  */
+    .form_area.login {
+        width: auto;
+        margin: 50px;
+        padding: 50px 70px;
+    }
+
+    .form_text_tit h1 {
+        font-size: 48px;
+    }
+
+    .form_inner_text p {
+        font-size: 26px;
+    }
+
+    /* dashboard  */
+    .side_bar_menu {
+        width: 250px;
+    }
+
+    .side_bar_logo a b {
+        font-size: 30px;
+    }
+
+    .dashboard_body {
+        margin-left: 190px;
+        padding-left: 20px;
+    }
+
+    .appid h1 {
+        font-size: 22px;
+    }
+
+    .appid img {
+        width: 40%;
+    }
+
+    .slide_bar_menu {
+        padding: 0 25px;
+    }
+
+    .slide_bar_menu ul li a {
+        font-size: 20px;
+    }
+
+    .head_body {
+        padding-right: 10px;
+    }
+
+    .head_titel h1 {
+        font-size: 30px;
+    }
+
+    .head_titel a {
+        font-size: 18px;
+        padding: 10px 10px;
+        border-radius: 6px;
+    }
+
+    .head_left a {
+        font-size: 15px;
+        padding: 12px 15px;
+        border-radius: 8px;
+    }
+
+    .head_right a {
+        font-size: 20px;
+    }
+
+    .head_right img {
+        width: 35px;
+    }
+
+    .appid {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .head_titel {
+        margin-bottom: 40px;
+    }
+
+    .slide_bar_menu img {
+        width: 50px;
+    }
+
+    .head_titel a i {
+        margin-right: 3px;
+    }
+
+    /* creat-app page */
+    .head_titel.head_p h1 {
+        font-size: 50px;
+    }
+
+    .head_p p {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .billing_section {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .billing_section h1 {
+        font-size: 30px;
+    }
+
+    .billing_section p {
+        font-size: 19px;
+    }
+
+    .billing_section ul li {
+        font-size: 18px;
+    }
+
+    .billing_section a {
+        font-size: 18px;
+    }
+
+    /* creat-app page  */
+    .sing_input input,
+    .sing_input textarea {
+        font-size: 22px;
+    }
+
+    .sing_input button {
+        font-size: 26px;
+    }
+
+    .profile_pic h2 {
+        font-size: 20px;
+    }
+
+    .profile_pic h1 {
+        font-size: 34px;
+    }
+
+    .drap-content img {
+        margin-top: 30px;
+        width: 40%;
+    }
+
+    .profile_form .sing_input input,
+    .profile_form .sing_input textarea {
+        margin-bottom: 30px;
+    }
+
+    .profile_form .sing_input textarea {
+        height: 150px;
+    }
+
+    /* showco page  */
+    .app_img {
+        position: relative;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .app_text h3 {
+        font-size: 28px;
+    }
+
+    .app_text h1 {
+        font-size: 40px;
+    }
+
+    .app_text p {
+        font-size: 24px;
+    }
+
+    .app_text a {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .process_bar_area {
+        padding: 80px 110px;
+        padding-left: 70px;
+        padding-bottom: 0px;
+    }
+
+    .process_bar .pros_tit {
+        font-size: 30px;
+    }
+
+    .process_bar .main_bar {
+        margin-left: 0;
+        height: 40px;
+    }
+    .skill_bar {
+        height: 40px;
+    }
+
+    .pro-qty .qtybtn {
+        width: 50px;
+        font-size: 40px;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    .pro-qty input {
+        height: 50px;
+        font-size: 40px;
+        width: 70px;
+        margin: 0 8px;
+        top: 4px;
+    }
+
+    .process_bar_area {
+        padding: 30px 50px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+    }
+
+    .p_num {
+        top: -45px;
+        right: -10px;
+        font-size: 30px;
+    }
+
+    .quantity {
+        margin-bottom: 50px;
+    }
+
+    .p_num.right {
+        top: -85px;
+    }
+
+    .process_bar {
+        margin: 60px 0;
+    }
+
+    .process_bar .pros_tit {
+        font-size: 25px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .main_logo {
+        text-align: center;
+    }
+
+    .main_logo a {
+        font-size: 20px;
+    }
+
+    .header_menu ul li a {
+        font-size: 18px;
+    }
+
+    .header_menu {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .site_text p {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    .sing_input label {
+        font-size: 16px;
+    }
+
+    .sing_input input {
+        margin-bottom: 10px;
+    }
+
+    .sing_input button {
+        font-size: 15px;
+        padding: 15px 5px;
+    }
+
+    .fotter_widget.text-right {
+        text-align: center !important;
+    }
+
+    /* log-in  */
+    .form_area.login {
+        width: auto;
+        margin: 15px;
+        padding: 30px 5px;
+    }
+
+    .form_text_tit img {
+        margin-right: 10px;
+        width: auto;
+        height: auto;
+    }
+
+    .form_text_tit h1 {
+        font-size: 25px;
+    }
+
+    .form_inner_text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .footer_social li {
+        margin-left: 0;
+        margin: 0 5px;
+    }
+
+    .footer_social li a img {
+        width: 35px;
+    }
+
+    .header_menu ul li {
+        padding-left: 0;
+    }
+
+    .footer_menu {
+        text-align: center;
+    }
+
+    .main_logo.footer_logo {
+        margin-bottom: 25px;
+    }
+
+    .sing_input img {
+        width: 10%;
+    }
+
+    /* dashboard  */
+    .dashboard_body {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .side_bar_menu {
+        width: 250px;
+        margin-left: -250px;
+        z-index: 9;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+    }
+
+    .side_bar_menu.canvas-active {
+        margin-left: 0px;
+    }
+
+    .offcanvas-overly {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #000;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    .offcanvas-overly.canvas-active {
+        opacity: .8;
+        visibility: visible;
+        z-index: 8;
+    }
+
+    .menu-trigger {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+    }
+
+    .menu-trigger i {
+        color: #03C99B;
+    }
+
+    .side_bar_logo a b {
+        font-size: 30px;
+    }
+
+    .appid h1 {
+        font-size: 22px;
+    }
+
+    .appid img {
+        width: 25%;
+    }
+
+    .slide_bar_menu {
+        padding: 0 25px;
+    }
+
+    .slide_bar_menu ul li a {
+        font-size: 20px;
+    }
+
+    .head_body {
+        padding-right: 10px;
+    }
+
+    .head_titel h1 {
+        font-size: 28px;
+        padding: 0 10px;
+        padding-top: 20px;
+    }
+
+    .head_titel a {
+        font-size: 18px;
+        padding: 10px 10px;
+        border-radius: 6px;
+    }
+
+    .head_left a {
+        font-size: 15px;
+        padding: 12px 15px;
+        border-radius: 8px;
+    }
+
+    .head_right a {
+        font-size: 20px;
+    }
+
+    .head_right img {
+        width: 35px;
+    }
+
+    .appid {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .head_titel {
+        margin-bottom: 50px;
+    }
+
+    .slide_bar_menu img {
+        width: 50px;
+    }
+
+    .head_titel a i {
+        margin-right: 3px;
+    }
+
+    .head_dashboard {
+        padding: 20px 0px;
+        box-shadow: 0 1px 4px #00000026;
+    }
+
+    .dashboard_body .container-fluid .col-12 {
+        padding-right: 0;
+        padding: 0;
+    }
+
+    .head_body {
+        padding: 10px 0;
+    }
+
+    .head_right.text-right {
+        text-align: center !important;
+        margin-top: 20px;
+    }
+
+    /* billing page */
+    .head_titel.head_p h1 {
+        font-size: 32px;
+    }
+
+    .head_p p {
+        font-size: 18px;
+        padding: 0px 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .billing_section {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .billing_section h1 {
+        font-size: 30px;
+    }
+
+    .billing_section p {
+        font-size: 19px;
+    }
+
+    .billing_section ul li {
+        font-size: 18px;
+    }
+
+    .billing_section a {
+        font-size: 18px;
+    }
+
+    /* creat-app page  */
+    .head_titel.head_tit_icon {
+        margin: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    .sing_input input,
+    .sing_input textarea {
+        font-size: 22px;
+    }
+
+    .sing_input button {
+        font-size: 20px;
+    }
+
+    .profile_pic h2 {
+        font-size: 16px;
+    }
+
+    .profile_pic h1 {
+        font-size: 30px;
+    }
+
+    .drap-content img {
+        margin-top: 15px;
+        width: 50%;
+    }
+
+    .profile_form .sing_input input,
+    .profile_form .sing_input textarea {
+        margin-bottom: 30px;
+    }
+
+    .profile_form .sing_input textarea {
+        height: 150px;
+    }
+
+    .profile_form {
+        padding-right: 0;
+    }
+
+    /* showco page  */
+    .app_img {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .app_text h3 {
+        font-size: 28px;
+    }
+
+    .app_text h1 {
+        font-size: 35px;
+    }
+
+    .app_text p {
+        font-size: 18px;
+    }
+
+    .app_text a {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .process_bar_area {
+        padding: 80px 110px;
+        padding-left: 70px;
+        padding-bottom: 0px;
+    }
+
+    .process_bar .pros_tit {
+        font-size: 30px;
+    }
+
+    .process_bar .main_bar {
+        margin-left: 0;
+        height: 40px;
+    }
+    .skill_bar {
+        height: 40px;
+    }
+    .pro-qty .qtybtn {
+        width: 50px;
+        font-size: 40px;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    .pro-qty input {
+        height: 50px;
+        font-size: 40px;
+        width: 70px;
+        margin: 0 8px;
+        top: 4px;
+    }
+
+    .process_bar_area {
+        padding: 0px 15px;
+        padding-left: 15px;
+        padding-bottom: 0px;
+    }
+
+    .process_bar {
+        margin: 50px 0;
+        display: inherit;
+    }
+
+    .p_num {
+        top: -35px;
+        right: 0px;
+        font-size: 20px;
+    }
+
+    .quantity {
+        margin-bottom: 50px;
+    }
+
+    .p_num.right {
+        top: -90px;
+    }
+
+    .process_bar .pros_tit {
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .app_img {
+        width: 50%;
+    }
+}

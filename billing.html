@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FusedVR</title>
+
+    <!-- all css in here --> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />  
+    <link rel="stylesheet" href="assets/css/style.css" />  
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />  
+  
+</head> 
+<body>
+    <div class="offcanvas-overly"></div>
+    <div class="side_bar_menu">
+        <div class="side_bar_logo">
+            <a href="">
+                <img src="assets/img/logo/logo.png" alt="">
+                <b>FusedVR</b>
+            </a>
+        </div>
+        <div class="slide_bar_menu">
+            <ul>
+                <li><a href="/dashboard.html">
+                    <img src="assets/img/icon/apps.png" alt="">
+                    Apps
+                </a></li>
+                <li><a href="/billing.html">
+                    <img src="assets/img/icon/billing.png" alt="">
+                    Billing                        
+                </a></li>
+                <li><a href="https://github.com/FusedVR">
+                    <img src="assets/img/icon/sdks.png" alt="">
+                    SDKs
+                </a></li>
+                <li><a href="https://crypto.fusedvr.com/docs/">
+                    <img src="assets/img/icon/Magazine.png" alt="">
+                    Docs
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dashboard_body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="head_dashboard">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="dropdown show">
+                                        <div class="head_right text-right">
+                                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">0x_____</a>
+                                            <div class="dropdown-menu" aria-labelledby="profile">
+                                                <button class="dropdown-item" href="#" id="logout">Logout</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="head_body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="head_titel head_p text-center">
+                                        <h1>Plans as you Scale</h1>
+                                        <p>A service designed for Blockchain gaming, should be paid on the blockchain. Purchase will be avaliable as a subscription <b>below</b> on the Polygon network powered by Cask.Fi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="head_titel head_p">
+                                        <p><b>My Current Month Plan Usage</b></p>
+                                    </div>
+                                    <div class="process_bar_area">
+                                        <div class="process_bar">
+                                            <span class="pros_tit">Emails Sent</span>
+                                            <div class="main_bar">
+                                                <div class="skill_bar skill_bar_two" id="emailBar">
+                                                    <span class="p_num" id="sentMail">0</span>
+                                                </div>
+                                                <span class="p_num right" id="maxEmail">100</span>
+                                            </div>
+                                        </div>
+                                        <div class="process_bar">
+                                            <span class="pros_tit">API Calls</span>
+                                            <div class="main_bar">
+                                                <div class="skill_bar" id="apiBar">
+                                                    <span class="p_num" id="apiCall">0</span>
+                                                </div>
+                                                <span class="p_num right" id="maxAPI">100</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="billing_section">
+                                        <h1>Starter</h1>
+                                        <p>Free Benefits per Application:</p>
+                                        <ul>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> 100 E-Mails</li>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> 100 API Calls</li>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> Community Support</li>
+                                        </ul>
+
+                                        <a class="btn" href="#">Try for Free</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="billing_section">
+                                        <h1>On The Rise</h1>
+                                        <p>Unlock more service for one Application:</p>
+                                        <ul>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> 1000 E-Mails</li>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> 100000 API Calls</li>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> Community Support</li>
+                                        </ul>
+
+                                        <a class="btn" href="#">Coming Soon</a>
+<!-- Removing CASK Button
+                                        <cask-checkout-button
+                                          id="ontherisePlan"
+                                          class="cask-checkout-button btn"
+                                          environment="testnet"
+                                          provider="0x74BAA21278E661eCea04992d5e8fBE6c29cF6f64" 
+                                          plan="1300973927"
+                                          label="$9 per month"
+                                        ></cask-checkout-button>
+-->
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="billing_section">
+                                        <h1>Take Off</h1>
+                                        <p>Unlock more service for one Application:</p>
+                                        <ul>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> 15000 E-Mails</li>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> 150000 API Calls</li>
+                                            <li><img src="assets/img/icon/check-circle.png" alt=""> Community Support</li>
+                                        </ul>
+
+                                        <a class="btn" href="#">Coming Soon</a>
+<!-- Removing CASK Button
+                                        <cask-checkout-button
+                                          id="takeoffPlan"
+                                          class="cask-checkout-button btn"
+                                          environment="testnet"
+                                          provider="0x74BAA21278E661eCea04992d5e8fBE6c29cF6f64"
+                                          plan="1300973927"
+                                          label="$60 per month"
+                                        ></cask-checkout-button>
+-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main & plugines js -->
+    <script src="https://js.cask.fi/v1/index.js"></script>
+
+    <script src="https://www.unpkg.com/jquery@3.6.1/dist/jquery.min.js" ></script>
+    <script src="https://unpkg.com/popper.js@1.12.8/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/jquery-modal@0.9.1/jquery.modal.min.js"></script>
+
+    <script src="assets/js/chainauth/header.js"></script>
+    <script src="assets/js/chainauth/billing.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>

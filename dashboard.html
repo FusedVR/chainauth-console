@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FusedVR</title>
+
+    <!-- all css in here --> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />  
+    <link rel="stylesheet" href="assets/css/style.css" />  
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  
+</head> 
+<body>
+    <div class="offcanvas-overly"></div>
+    <div class="side_bar_menu">
+        <div class="side_bar_logo">
+            <a href="">
+                <img src="assets/img/logo/logo.png" alt="">
+                <b>FusedVR</b>
+            </a>
+        </div>
+        <div class="slide_bar_menu">
+            <ul>
+                <li><a href="/dashboard.html">
+                    <img src="assets/img/icon/apps.png" alt="">
+                    Apps
+                </a></li>
+                <li><a href="/billing.html">
+                    <img src="assets/img/icon/billing.png" alt="">
+                    Billing                        
+                </a></li>
+                <li><a href="https://github.com/FusedVR">
+                    <img src="assets/img/icon/sdks.png" alt="">
+                    SDKs
+                </a></li>
+                <li><a href="https://crypto.fusedvr.com/docs/">
+                    <img src="assets/img/icon/Magazine.png" alt="">
+                    Docs
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dashboard_body vh">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="head_dashboard">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="dropdown show">
+                                        <div class="head_right text-right">
+                                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">0x_____</a>
+                                            <div class="dropdown-menu" aria-labelledby="profile">
+                                                <button class="dropdown-item" href="#" id="logout">Logout</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="head_body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="head_titel">
+                                        <h1>Applications <a href="/createapp.html">+ Create Application</a> </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" id="apps">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- main & plugines js -->
+    <script src="https://www.unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.8/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/jquery-modal@0.9.1/jquery.modal.min.js"></script>
+
+    <script src="assets/js/chainauth/header.js"></script>
+    <script src="assets/js/chainauth/dashboard.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>
