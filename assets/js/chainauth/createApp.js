@@ -9,7 +9,6 @@ const appName = "#appName";
 const appDesc = "#appDesc";
 const profile = "#upload-profile";
 
-//TODO show profile image
 $(window).on("auth.loaded", async function (e) {
     $("#createApp").on('click', async function() {
       if (validation()) {
@@ -21,7 +20,7 @@ $(window).on("auth.loaded", async function (e) {
         await apiCall( "apps/create" , 
             formData,
             function(data) {
-              window.location.href = '/showApp.html?id=' + data.id;
+              window.location.href = '/showapp.html?id=' + data.id;
             }, function(request, status, error) {
               if (error) {
                 showAlert(error);
