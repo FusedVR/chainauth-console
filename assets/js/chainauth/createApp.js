@@ -30,7 +30,7 @@ $(window).on("auth.loaded", async function (e) {
       }
     });
 
-    $("input[id='upload-profile']").on('change', async function () {
+    $("#upload-profile").on('change', async function () {
       let file = $(profile)[0].files[0];
       if (file.type == "image/png" || file.type == "image/jpeg") {
         var reader = new FileReader();
